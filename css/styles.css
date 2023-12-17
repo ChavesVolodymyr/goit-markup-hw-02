@@ -1,30 +1,32 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
+
 }
 ul {
   list-style: none;
 }
 .header {
-  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff);
+   background: var(--WHITE, #fff);
 }
 .logo-web {
 color: var(--IRIS, #4D5AE5);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
 .logo-studio {
 color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -45,6 +47,9 @@ text-decoration: none;
 .navigation-item:focus,
 .navigation-item:hover {
   color: #404bbf;
+}
+.addres-nav-link{
+  font-style: normal;
 }
 .nav-link {
   color: var(--SLATE, #434455);
@@ -71,12 +76,12 @@ text-decoration: none;
 }
 
 .section-banner-botton {
-  border-radius: 4px;
-  background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: #ffffff;
+   background: var(--IRIS, #4d5ae5);
+   color: #ffffff;
   cursor: pointer;
   font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 0.04em;
 }
 .section-banner-botton:focus,
 .section-banner-botton:hover {
@@ -149,7 +154,7 @@ text-decoration: none;
 }
 .footer-web {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -160,7 +165,7 @@ text-decoration: none;
 
 .footer-studio {
   color: var(--CLOUD, #f4f4fd);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16;
@@ -179,4 +184,7 @@ text-decoration: none;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.portfolio-list{
+  background-color: #FFFFFF;
 }
