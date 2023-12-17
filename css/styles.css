@@ -82,6 +82,7 @@ text-decoration: none;
   font-family: inherit;
   font-weight: 500;
   letter-spacing: 0.04em;
+  line-height: 1.5;
 }
 .section-banner-botton:focus,
 .section-banner-botton:hover {
