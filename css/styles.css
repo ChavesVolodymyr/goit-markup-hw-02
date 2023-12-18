@@ -115,6 +115,9 @@ text-decoration: none;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.team-color{
+  background-color: #FFFFFF;
+}
 .team-titel-name {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
